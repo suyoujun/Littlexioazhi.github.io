@@ -1,0 +1,17 @@
+.animate {
+  width: 100px;
+  height:100px;
+  background: purple;
+}
+.ate {
+ animation: rotate 1s linear;
+}
+
+@-webkit-keyframes rotate {
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
